@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>SignUp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
         <style>
@@ -26,7 +27,8 @@
             transition: 1s;
         }
         .fb-btn{
-            background-image: linear-gradient(rgb(68, 68, 243),light rgb(145, 145, 247));
+            /* background-image: linear-gradient(rgb(68, 68, 243),light rgb(145, 145, 247)); */
+            background: linear-gradient(to right, rgb(68, 68, 243) 70%, rgb(145, 145, 247));
             border-color: rgb(68, 68, 243);
             border-radius: 0;
             width: 100%;
@@ -37,7 +39,8 @@
             transition: 1s;
         }
         .twtr-btn{
-            background-color: rgb(31, 146, 192);
+            /* background-color: rgb(31, 146, 192); */
+            background: linear-gradient(to  right, rgb(30, 116, 245) 70%, rgb(108, 173, 199));
             border-color: rgb(31, 146, 192);
             border-radius: 0;
             width: 100%;
@@ -45,15 +48,18 @@
         .twtr-btn:hover{
             transition: 1s;
         }
+        .set{
+            border-radius: 0; margin-top: 47px; margin-bottom: 47px; height: 720px;
+        }
         </style>
     </head>
     <body>
-        <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-7 bg-light bg-img"  style="height: 715px; border-radius: 0; ">
+                <div class="col-lg-7 bg-light bg-img set" >
                    
                 </div>
-                <div class="col-lg-5 bg-white" style="border-radius: 0; height: 715px;">
+                <div class="col-lg-5 bg-white set">
                     <h1 style="text-align: center;">Sign Up</h1>
                     <form>
                         <div class="row">
